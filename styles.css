@@ -74,9 +74,7 @@
 }
 
 /*  section  */
-.section {
-  height: 500px;
-}
+
 @media screen and (max-width: 1052px) {
   .Our-Services {
 
@@ -158,17 +156,19 @@
     justify-content: center;
   }
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 540px) {
   .main {
     width: 100%;
     grid-template-columns: 300px;
     grid-template-rows: 500px 500px 500px;
     justify-content: center;
-    margin-top: 45%;
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
   }
-  
+  .section {
+    height: 300px;
+  }
 }
 
 .article {
